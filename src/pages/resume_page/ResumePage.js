@@ -2,7 +2,7 @@ import { Container } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import { AiOutlineDownload } from "react-icons/ai";
 import Particle from "../../Particle";
-import pdf from "../../assets/Pruthvi_Resume.pdf";
+import pdf from "../../assets/devp_CV.pdf";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import Zoom from "react-reveal/Zoom";
@@ -10,7 +10,7 @@ import React, { useState, useEffect } from "react";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/Prureddy/React_portfolio-main/main/src/assets/Pruthvi_Resume.pdf";
+  "https://raw.githubusercontent.com/Prarthnesh-Bharti/my-portfolio/main/src/assets/devp_CV.pdf";
   
 
 function Resume() {
