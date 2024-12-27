@@ -8,7 +8,7 @@ function Typing() {
                 strings: [
                     " Web Developer",
                     "Software Developer ",
-                    "Machine Learning Enthusiast",
+                    "Generative AI Enthusiast",
                 ],
                 autoStart: true,
                 loop: true,
