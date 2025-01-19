@@ -29,6 +29,37 @@ function ExperienceJourney() {
       </div>
       <VerticalTimeline>
         {/* Your experience details */}
+
+    <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          contentArrowStyle={{ borderLeft: "7px solid  rgb(78 22 112)" }}
+          date="Dec 2024 - Jan 2025"
+          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          icon={<PersonIcon />}
+        >
+          <h5 className="vertical-timeline-element-title"> Instient Private Limited | Software Intern</h5>
+          <h6 className="vertical-timeline-element-subtitle mt-2">Banglore, India</h6>
+          <p>
+          Working on the backend development for a blog website, integrating SEO best practices to improve search engine visibility.
+          Collaborating with the frontend team, who is using Angular, to ensure seamless integration of SEO-friendly content and metadata.
+          </p>
+        </VerticalTimelineElement>
+        
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          contentArrowStyle={{ borderLeft: "7px solid  rgb(78 22 112)" }}
+          date="Jan 2024 -Present "
+          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          icon={<PersonIcon />}
+        >
+          <h5 className="vertical-timeline-element-title">KrtrimaIQ Cognitive Solutions  | AI Engineer Intern</h5>
+          <h6 className="vertical-timeline-element-subtitle mt-2">Banglore, India</h6>
+          <p>
+           I have worked on image generation using Flux Dev models, leveraging OpenAI to generate prompts for the Flux Dev model to create images, which were then used in video generation tasks. Additionally, I utilized NLP and LangChain in the same project to enhance it capabilities.My expertise in Python has been essential in developing and optimizing AI models for innovative results.
+          </p>
+        </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
